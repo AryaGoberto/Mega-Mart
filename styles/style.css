@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Hanken Grotesk;
+
+}
+
+:root{
+    --primary: #008ECC;
+    --background-1: #F5F5F5;
+}
+
+.navbar-1{
+    display: flex;
+    padding: 20px 60px;
+    font-size: 1.2rem;
+    background-color: var(--background-1);
+    max-width: 100%;
+    align-items: center;
+}
+.navbar-1 .nav-atas{
+    display: flex;
+    margin-left: auto;
+    gap: 2rem;  
+}
+.navbar-1 .deliver,
+.navbar-1 .track,
+.navbar-1 .offers{
+    display: flex;
+    align-items: center;
+}
+.navbar-1 .deliver p,
+.navbar-1 .track p,
+.navbar-1 .offers p{
+    margin-left: 5px;
+}
+.navbar-2{
+    display: flex;
+    padding: 20px 60px;
+    font-size: 1.2rem;
+    max-width: 100%;
+
+}
+.navbar-2 .logo{
+    display: flex;
+    align-items: center;
+}
+.navbar-2 .logo p{
+    margin-left: 0.5rem;
+    font-weight: 900;
+    color: var(--primary);
+    font-size: 1.7rem;
+}
+.navbar-2 .search-bar{
+    display: flex;
+    align-items: center;
+    background-color: var(--background-1);
+    padding: 1.1rem;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.navbar-2 .search-bar p{
+    margin-left: 1.5rem;
+    margin-right: 6rem;
+    font-size: 1.1rem;
+}
+.navbar-2 .nav-kanan{
+    display: flex;
+    margin-left: auto;
+    gap: 2rem;
+}
+.navbar-2 .sign-up,
+.navbar-2 .cart{
+    display: flex;
+    align-items:center;
+}
+.navbar-2 .sign-up p,
+.navbar-2 .cart p{
+    margin-left: 10px;
+}
+
+.all-dropdown .dropdowns{
+    display: flex;
+    padding: 20px 60px;
+    font-size: 1.2rem;
+    max-width: 100%;
+}
+.all-dropdown .dropdowns .groceries,
+.all-dropdown .dropdowns .premium-fruits,
+.all-dropdown .dropdowns .home-kitchen,
+.all-dropdown .dropdowns .fashion,
+.all-dropdown .dropdowns .electronics,
+.all-dropdown .dropdowns .beauty,
+.all-dropdown .dropdowns .home-improvement,
+.all-dropdown .dropdowns .sport-toys{
+    display: flex;
+    font-size: 1.1rem;
+    background-color: var(--background-1);
+    padding: 7px;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+.all-dropdown .dropdowns .groceries{
+    background-color: var(--primary);
+    color: white;
+}
+
+main .banner{
+    padding: 20px 60px;
+    max-width: 100%;
+}
+
+main .smartphones {
+    padding: 20px 60px;
+    max-width: 100%;
+}
+main .smartphones .title{
+    display: flex;
+    align-items: center;
+}
+main .smartphones .title p{
+    margin-left: auto;
+}
+main .smartphone-items {
+    display: flex;
+    margin-top: 20px;
+}
+
+main .smartphone-items .s22-ultra,
+main .smartphone-items .ip14pm,
+main .smartphone-items .xiaomi-12,
+main .smartphone-items .vivo-v27,
+main .smartphone-items .oppo-x3 {
+    margin: auto;
+}
+
+.s22-ultra,
+.ip14pm,
+.xiaomi-12,
+.vivo-v27,
+.oppo-x3 {
+    width: 240px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 5px;
+}
+
+.phone-frame {
+    position: relative;
+    overflow: hidden;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+.s22-ultra img,
+.ip14pm img,
+.xiaomi-12 img,
+.vivo-v27 img,
+.oppo-x3 img {
+    margin: 0 auto;
+    height: auto;
+    display: block;
+}
+
+.s22-ultra p,
+.ip14pm p,
+.xiaomi-12 p,
+.vivo-v27 p,
+.oppo-x3 p {
+    margin: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Atur image */
+main .smartphone-items .s22-ultra img {
+    width: 85.5%;
+    position: relative;
+}
+
+main .smartphone-items .ip14pm img {
+    width: 71.5%;
+}
+
+main .smartphone-items .xiaomi-12 img {
+    width: 74.5%;
+}
+
+main .smartphone-items .vivo-v27 img {
+    width: 70%;
+}
+
+main .smartphone-items .oppo-x3 img {
+    width: 70%;
+}
+
+main .smartphone-items .s22-ultra .phone-frame,
+main .smartphone-items .ip14pm .phone-frame,
+main .smartphone-items .xiaomi-12 .phone-frame,
+main .smartphone-items .vivo-v27 .phone-frame,
+main .smartphone-items .oppo-x3 .phone-frame{
+    background-color: var(--background-1);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+/* Categories */
+main .categories{
+    padding: 20px 60px;
+    max-width: 100%;
+}
+
+main .categories .title{
+    display: flex;
+    align-items: center;
+}
+main .categories .title p{
+    margin-left: auto;
+}
+main .categories .categories-item{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main .categories img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+main .categories .mobile .mobile-img,
+main .categories .cosmetics  .cosmetics-img,
+main .categories .electronics .electronics-img,
+main .categories .furniture .furniture-img,
+main .categories .watches .watches-img,
+main .categories .decor .decor-img,
+main .categories .accessories .accessories-img{
+    width: 171.5px;
+    height: 171.5px;
+    background-color: var(--background-1);
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+main .categories .mobile .mobile-text,
+main .categories .cosmetics  .cosmetics-text,
+main .categories .electronics .electronics-text,
+main .categories .furniture .furniture-text,
+main .categories .watches .watches-text,
+main .categories .decor .decor-text,
+main .categories .accessories .accessories-text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .categories .mobile .mobile-text .name,
+main .categories .cosmetics  .cosmetics-text .name,
+main .categories .electronics .electronics-text .name,
+main .categories .furniture .furniture-text .name,
+main .categories .watches .watches-text .name,
+main .categories .decor .decor-text .name,
+main .categories .accessories .accessories-text{
+    font-size: 16px;
+}
+
+main .categories .mobile .mobile-text,
+main .categories .cosmetics  .cosmetics-text,
+main .categories .electronics .electronics-text,
+main .categories .furniture .furniture-text,
+main .categories .watches .watches-text,
+main .categories .decor .decor-text,
+main .categories .accessories .accessories-text{
+    font-size: 20px;
+    margin-top: 4px;
+    font-weight: 700;
+}
+/* Categories*/
+
+
+main .electronic-brands{
+    padding: 20px 60px;
+    max-width: 100%;
+}
+
+main .electronic-brands .title{
+    display: flex;
+    align-items: center;
+}
+main .electronic-brands .title p{
+    margin-left: auto;
+}
+
+main .electronic-brands .image{
+    margin-left: auto;
+    gap: 45px;
+    display: flex;
+    margin-top: 20px;
+}
+main .electronic-brands .titik img{
+    margin: 0 auto;
+}
+
+.titik {
+    margin-top: 50px; 
+}
+
+.titik img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*  */
+main .daily-essential{
+    padding: 20px 60px;
+    max-width: 100%;
+}
+main .daily-essential .title{
+    display: flex;
+    align-items: center;
+}
+
+main .daily-essential .title p{
+    margin-left: auto;
+}
+
+main .daily-essential .list{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.main .daily-essential img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+main .daily-essential .daily .daily-img,
+main .daily-essential .vegetables .vegetables-img,
+main .daily-essential .fruits .fruits-img,
+main .daily-essential .strawberry .strawberry-img,
+main .daily-essential .mango .mango-img,
+main .daily-essential .cherry .cherry-img{
+    width: 200px;
+    height: 200px;
+    background-color: var(--background-1);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+main .daily-essential .daily .daily-text,
+main .daily-essential .vegetables .vegetables-text,
+main .daily-essential .fruits .fruits-text,
+main .daily-essential .strawberry .strawberry-text,
+main .daily-essential .mango .mango-text,
+main .daily-essential .cherry .cherry-text{
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .daily-essential .daily .daily-text .name,
+main .daily-essential .vegetables .vegetables-text .name,
+main .daily-essential .fruits .fruits-text .name,
+main .daily-essential .strawberry .strawberry-text .name,
+main .daily-essential .mango .mango-text .name,
+main .daily-essential .cherry .cherry-text .name{
+    font-size: 16px;
+}
+
+main .daily-essential .daily .daily-text .off,
+main .daily-essential .vegetables .vegetables-text .off,
+main .daily-essential .fruits .fruits-text .off,
+main .daily-essential .strawberry .strawberry-text .off,
+main .daily-essential .mango .mango-text .off,
+main .daily-essential .cherry .cherry-text .off{
+    font-size: 20px;
+    margin-top: 4px;
+    font-weight: 700;
+}
+footer {
+    padding: 20px 60px;
+    margin-top: 20px;
+    background-color: var(--primary);
+    color: white;
+
+}
+footer .baris{
+    display: flex;
+    margin: auto;
+}
+
+footer .baris .kolom-1{
+    width: 300px;
+}
+footer .baris .kolom-2,
+footer .baris .kolom-3{
+    margin-left: auto;
+}
+
+footer .baris .kolom-1 .whatsapp,
+footer .baris .kolom-1 .call-us{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 20px;
+}
+footer .baris .kolom-1 .whatsapp .whatsapp-text p,
+footer .baris .kolom-1 .call-us .call-text p{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+footer .baris .kolom-1 .download{
+    text-align: left;
+    font-size: 1.3rem;
+}
+footer .baris .kolom-1 .appstore img{
+    width: 50%;
+    margin-top: 10px;
+}
+footer .baris .kolom-1 .google-play img{
+    width: 50%;
+    margin-top: 10px;
+}
+footer .baris .kolom-2 li{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+footer .baris .kolom-3 li{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+footer .end{
+    margin-top: 40px;
+    text-align: center;
+}
