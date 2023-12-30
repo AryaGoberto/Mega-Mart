@@ -1,4 +1,4 @@
-# Slicing Website Project
+# Mega Mart
 
 ## Introduction
 
